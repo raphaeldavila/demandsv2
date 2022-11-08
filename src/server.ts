@@ -6,10 +6,10 @@ app.use(express.json())
 const PORT = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-    res.send('chegamos!')
+    res.send('teste api')
 })
 
 app.listen(PORT, () => {
-    console.log(`listening on port ${PORT}`)
+    console.log(`Servidor rodando na porta: ${PORT}`)
 })
 
