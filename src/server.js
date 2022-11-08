@@ -16,5 +16,5 @@ app.use((0, cors_1.default)());
 app.use(express_1.default.json());
 app.use(routes_1.router);
 app.listen(port || 5000, () => {
-    console.log("Server is listening: " + port);
+    console.log("Servidor rodando na porta: " + port);
 });
